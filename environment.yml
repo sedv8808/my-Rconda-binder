@@ -6,6 +6,6 @@ dependencies:
  - r-base=4.1
  - r-tidyverse
  - conda skeleton cran https://github.com/NeotomaDB/neotoma2
- - conda-build --R 4.1 neotoma2
+ - conda-build neotoma2
  
 
