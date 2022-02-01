@@ -2,5 +2,4 @@ install.packages('leaflet')
 install.packages('tidyverse')
 install.packages('devtools')
 library(devtools)
-install.packages('neotoma2_0.0.0.9000.tar.gz', repos = NULL, type="source")
-
+install_local("~/neotoma2_0.0.0.9000.tar.gz", repos = NULL, type="source")
